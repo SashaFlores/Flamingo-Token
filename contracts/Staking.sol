@@ -47,7 +47,7 @@ contract Staking {
   /**
    * @dev mapping the staker address(key/index) to the Stake in the stakes array
   */
-  mapping (address => uint256) internal stakes;
+  mapping(address => uint256) internal stakes;
 
   event Staked(address indexed user, uint256 amount, uint index, uint256 timestamp);
 
